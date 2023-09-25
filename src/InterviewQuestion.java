@@ -33,8 +33,6 @@ public class InterviewQuestion {
         if (first - second == value) builder.append("-");
         if (second != 0) {
             if (first / second == value) builder.append("/");
-        }else{
-
         }
         if (first * second == value) builder.append("*");
         if(builder.toString().length() > 0) return builder.toString();
